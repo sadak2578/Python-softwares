@@ -10,7 +10,7 @@ keys_list = [
 ]  
 symbols_for_pass = ['!','@','*']
 numbers = ['1','2','3','4','5','6','7','8','9','10','99','28','76','23','1']
-def results(tamanho=21):
+def results(tamanho=15):
     random_item = random.choice([item for item in keys_list if item])
     random_item_symbol = random.choice(symbols_for_pass)
     random_numbers = random.choice(numbers)
@@ -23,4 +23,5 @@ def results(tamanho=21):
         
     print('senha gerada: ', result)
 
-results()
+for _ in range(21):
+	results()
