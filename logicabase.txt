@@ -1,0 +1,12 @@
+""" 
+Lógica do código:
+entrada = input("informe um número aqui: [digite :q para sair] ")
+	if entrada == ":q":
+		break
+	try:
+		num = float(entrada)
+		soma += num
+	except  ValueError:
+		print("valor inválido, por favor tente novamente")
+
+"""
